@@ -27,4 +27,4 @@ jobs:
           SSH_HOST: ${{ secrets.SSH_HOST }}
 
       - name: Copy site to deploy
-          run: rsync -r ./ srv:/srv/http/codegirls
+        run: rsync -r ./ srv:/srv/http/codegirls
