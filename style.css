@@ -1,4 +1,4 @@
-h1{
+h1 {
   font-family: "Roboto Mono", monospace;
   color: rgb(34, 49, 85);
   font-weight: 400;
@@ -7,7 +7,8 @@ h1{
   margin-right: 12.5%;
   margin-left: 12.5%;
 }
-h2{
+
+h2 {
   font-family: "Roboto Mono", monospace;
   color: rgb(34, 49, 85);
   font-weight: 400;
@@ -16,7 +17,8 @@ h2{
   margin-right: 12.5%;
   margin-left: 12.5%;
 }
-h2{
+
+h2 {
   font-family: "Roboto Mono", monospace;
   color: rgb(34, 49, 85);
   font-weight: 400;
@@ -25,7 +27,8 @@ h2{
   margin-right: 12.5%;
   margin-left: 12.5%;
 }
-p{
+
+p {
   margin-top: 15px;
   margin-bottom: 15px;
   margin-right: 12.5%;
@@ -33,33 +36,33 @@ p{
 }
 
 body {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
 
   position: relative;
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-   
-}
 
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#e5b2c3;
+  background-color: #e5b2c3;
 }
 
 li {
   float: left;
 }
 
-li a, .dropbtn {
+li a,
+.dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -67,8 +70,9 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-  background-color:#b8b9bf;
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #b8b9bf;
 }
 
 li.dropdown {
@@ -80,7 +84,7 @@ li.dropdown {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -92,14 +96,13 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-
-
 
 .footer {
   position: absolute;
@@ -107,7 +110,7 @@ li.dropdown {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color:  #b8b9bf;
+  background-color: #b8b9bf;
   text-align: center;
 }
 
@@ -131,7 +134,69 @@ th{
 
 }
 
+
 table {
-    margin: auto;
-    width: 75%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 12.5%;
+  margin-left: 12.5%;
+  width: 75%;
+}
+
+tr {
+  padding: 0px;
+}
+
+
+.references a:link,
+.references a:visited {
+  color: #548c98
+}
+
+.references a:hover,
+.references a:active {
+  color: #293450
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-right: 10.5%;
+  margin-left: 10.5%;
+  font-family: "Roboto Mono", monospace;
+  font-size: 24px;
+}
+
+.active,
+.accordion:hover {
+  background-color: #f1f1f1;
+}
+
+.panel {
+  padding: 0px;
+  background-color: #fff;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 18px;
+  color: #f1f1f1;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
 }

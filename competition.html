@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Code Girls</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+  <script src="script.js"></script>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Curriculum</a>
+      <div class="dropdown-content">
+        <a href="2021-2022.html">2021-2022</a>
+        <a href="resources.html">Additional Resources</a>
+    </li>
+    <li class="dropdown">
+      <a href="competition.html" class="dropbtn">Competition</a>
+      <div class="dropdown-content">
+        <a href="competition.html">Overview</a>
+        <!--<a href="rules.html">Rules</a>-->
+        <a href="register.html">Register</a>
+      </div>
+    </li>
+  </ul>
+
+
+
+  <h1>Overview</h1>
+  <p>Code Girls is hosting our second virtual programming competition for middle- and
+    high-school female and nonbinary students on <b style="color:#548c98">Saturday, July 30th</b> from <b
+      style="color:#548c98">12-5pm EST</b>.
+    The competition will feature a programming round with two divisions, beginner and intermediate,
+    as well as an optional design round. No prior coding competition experience is necessary!
+    See below for more details.
+  </p>
+
+  <button class="accordion" onclick="accordionClick(this)">Schedule</button>
+  <div class="panel">
+    <table>
+      <tr>
+        <td>
+          <b style="color:#bf6491">12:00-12:15pm</b>
+        </td>
+        <td>
+          Opening remarks + design round intro
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b style="color:#bf6491">12:15-12:50pm</b>
+        </td>
+        <td>
+          Design round
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b style="color:#bf6491">12:50-1:00pm</b>
+        </td>
+        <td>
+          Programming round intro
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b style="color:#bf6491">1:00-4:15pm</b>
+        </td>
+        <td>
+          Programming round
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b style="color:#bf6491">4:15-4:30pm</b>
+        </td>
+        <td>
+          Break; design round submission closed
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b style="color:#bf6491">4:30-5:00pm</b>
+        </td>
+        <td>
+          Awards + closing remarks
+        </td>
+      </tr>
+
+    </table>
+  </div>
+
+  <button class="accordion" onclick="accordionClick(this)">Design Round</button>
+  <div class="panel">
+    <p>Since coding is and will continue to be used to solve many of the world’s problems, this year, we are introducing
+      the <b style="color:#548c98">design round</b>!
+      This completely optional round will ask participants to create an application or website
+      that addresses the prompt given and to submit a concept sketch and brief explanation of their product.
+      No coding is required; we are more interested in seeing your innovative and creative ideas!
+      Those who choose to submit a design will be given the option to have their submission shared on our website and
+      will receive additional merch.
+    </p>
+    <p>
+      <b style="color:#548c98">Problems:</b> 1
+      <br>
+      <b style="color:#548c98">Time:</b> 4 hours
+      <br>
+      <b style="color:#548c98">Submission:</b> Concept sketch or wireframe
+      <br>
+      <b style="color:#548c98">Platform:</b> Google forms submission
+      <br>
+    </p>
+  </div>
+
+  <button class="accordion" onclick="accordionClick(this)">Programming Round</button>
+  <div class="panel">
+    <p>The <b style="color:#bf6491">programming round</b> will test your problem solving, logical reasoning, and coding
+      skills, and this part of the
+      competition will be used to determine prize winners. As with last year, we will have two divisions, beginner and
+      intermediate; you can view the guide if you need help determining which division to sign up for. We will be
+      accepting any programming language, but the solutions we provide will be in Python or Java.
+    </p>
+    <p>
+      <b style="color:#bf6491">Problems:</b> 4-5
+      <br>
+      <b style="color:#bf6491">Time:</b> 3 hours
+      <br>
+      <b style="color:#bf6491">Submission:</b> Code in Python, Java, C++, or another programming language
+      <br>
+      <b style="color:#bf6491">Platform</b> Hackerrank
+      <br>
+    </p>
+  </div>
+
+
+  <div class="footer">Copyright &copy; 2022 Montgomery Blair Code Girls.</div>
+
+
+</body>
+
+</html>
