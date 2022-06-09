@@ -126,7 +126,7 @@ html {
   box-sizing: inherit;
 }
 
-th{
+th {
   display: table-cell;
   vertical-align: inherit;
   font-weight: normal;
@@ -149,12 +149,16 @@ tr {
 
 
 .references a:link,
-.references a:visited {
+.references a:visited,
+.registration a:link,
+.registration a:visited {
   color: #548c98
 }
 
 .references a:hover,
-.references a:active {
+.references a:active,
+.registration a:hover,
+.registration a:active {
   color: #293450
 }
 
@@ -190,7 +194,7 @@ tr {
 .accordion:after {
   content: '\02795';
   /* Unicode character for "plus" sign (+) */
-  font-size: 18px;
+  font-size: 13px;
   color: #f1f1f1;
   float: right;
   margin-left: 5px;
