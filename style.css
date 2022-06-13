@@ -189,6 +189,8 @@ tr {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  margin-right: 10.5%;
+  margin-left: 10.5%;
 }
 
 .accordion:after {
