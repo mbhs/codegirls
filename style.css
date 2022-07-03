@@ -134,7 +134,6 @@ th {
 
 }
 
-
 table {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -151,14 +150,22 @@ tr {
 .references a:link,
 .references a:visited,
 .registration a:link,
-.registration a:visited {
+.registration a:visited, 
+.beginner a:link,
+.beginner a:visited,
+.panel a:link,
+.panel a:visited  {
   color: #548c98
 }
 
 .references a:hover,
 .references a:active,
 .registration a:hover,
-.registration a:active {
+.registration a:active,
+.beginner a:hover,
+.beginner a:active,
+.panel a:hover,
+.panel a:active {
   color: #293450
 }
 
