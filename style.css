@@ -179,8 +179,8 @@ tr {
   border: none;
   outline: none;
   transition: 0.4s;
-  margin-right: 12%;
-  margin-left: 12%;
+  margin-right: 12.5%;
+  margin-left: 12.5%;
   font-family: "Roboto Mono", monospace;
   font-size: 24px;
 }
@@ -196,8 +196,8 @@ tr {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  margin-right: 12%;
-  margin-left: 12%;
+  margin-right: 12.5%;
+  margin-left: 12.5%;
 }
 
 .accordion:after {
