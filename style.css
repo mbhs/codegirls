@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&display=swap');
+
 h1 {
-  font-family: "Roboto Mono", monospace;
-  color: rgb(34, 49, 85);
+  font-family: "Google Sans", "Roboto", Arial, sans-serif;  color: rgb(34, 49, 85);
   font-weight: 400;
   margin-top: 60px;
   margin-bottom: 15px;
@@ -9,8 +10,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto Mono", monospace;
-  color: rgb(34, 49, 85);
+  font-family: "Google Sans", "Roboto", Arial, sans-serif;  color: rgb(34, 49, 85);
   font-weight: 400;
   margin-top: 30px;
   margin-bottom: 15px;
@@ -19,8 +19,7 @@ h2 {
 }
 
 h2 {
-  font-family: "Roboto Mono", monospace;
-  color: rgb(34, 49, 85);
+  font-family: "Google Sans", "Roboto", Arial, sans-serif;  color: rgb(34, 49, 85);
   font-weight: 400;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -36,8 +35,7 @@ p {
 }
 
 body {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 14px;
+  font-family: "Google Sans", "Roboto", Arial, sans-serif;  font-size: 14px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -181,7 +179,7 @@ tr {
   transition: 0.4s;
   margin-right: 12.5%;
   margin-left: 12.5%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Google Sans", "Roboto", Arial, sans-serif;
   font-size: 24px;
 }
 
