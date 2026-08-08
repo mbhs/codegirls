@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 h1 {
-  font-family: "Google Sans", "Roboto", Arial, sans-serif;  color: rgb(34, 49, 85);
-  font-weight: 400;
+  font-family: "Inter", Arial, sans-serif;
+  color: rgb(34, 49, 85);
+  font-weight: 500;
   margin-top: 60px;
   margin-bottom: 15px;
   margin-right: 12.5%;
@@ -10,24 +11,17 @@ h1 {
 }
 
 h2 {
-  font-family: "Google Sans", "Roboto", Arial, sans-serif;  color: rgb(34, 49, 85);
-  font-weight: 400;
+  font-family: "Inter", Arial, sans-serif;
+  color: rgb(34, 49, 85);
+  font-weight: 500;
   margin-top: 30px;
   margin-bottom: 15px;
   margin-right: 12.5%;
   margin-left: 12.5%;
 }
 
-h2 {
-  font-family: "Google Sans", "Roboto", Arial, sans-serif;  color: rgb(34, 49, 85);
-  font-weight: 400;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-right: 12.5%;
-  margin-left: 12.5%;
-}
-
 p {
+  font-family: "Inter", Arial, sans-serif;
   margin-top: 15px;
   margin-bottom: 15px;
   margin-right: 12.5%;
@@ -35,16 +29,15 @@ p {
 }
 
 body {
-  font-family: "Google Sans", "Roboto", Arial, sans-serif;  font-size: 14px;
-  line-height: 1.42857143;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
   color: #333;
   background-color: #fff;
-
   position: relative;
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-
 }
 
 ul {
@@ -66,6 +59,8 @@ li a,
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
 }
 
 li a:hover,
@@ -92,6 +87,7 @@ li.dropdown {
   text-decoration: none;
   display: block;
   text-align: left;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .dropdown-content a:hover {
@@ -110,8 +106,8 @@ li.dropdown {
   padding: 1rem;
   background-color: #b8b9bf;
   text-align: center;
+  font-family: "Inter", Arial, sans-serif;
 }
-
 
 html {
   height: 100%;
@@ -127,9 +123,8 @@ html {
 th {
   display: table-cell;
   vertical-align: inherit;
-  font-weight: normal;
+  font-weight: 500;
   text-align: center;
-
 }
 
 table {
@@ -144,16 +139,15 @@ tr {
   padding: 0px;
 }
 
-
 .references a:link,
 .references a:visited,
 .registration a:link,
-.registration a:visited, 
+.registration a:visited,
 .beginner a:link,
 .beginner a:visited,
 .panel a:link,
-.panel a:visited  {
-  color: #548c98
+.panel a:visited {
+  color: #548c98;
 }
 
 .references a:hover,
@@ -164,7 +158,7 @@ tr {
 .beginner a:active,
 .panel a:hover,
 .panel a:active {
-  color: #293450
+  color: #293450;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -179,8 +173,9 @@ tr {
   transition: 0.4s;
   margin-right: 12.5%;
   margin-left: 12.5%;
-  font-family: "Google Sans", "Roboto", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 24px;
+  font-weight: 500;
 }
 
 .active,
@@ -200,7 +195,6 @@ tr {
 
 .accordion:after {
   content: '\02795';
-  /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #f1f1f1;
   float: right;
@@ -209,5 +203,4 @@ tr {
 
 .active:after {
   content: "\2796";
-  /* Unicode character for "minus" sign (-) */
 }
